@@ -1,0 +1,5 @@
+node: vesta.doctor
+medicalfees: 40
+healamount: 20
+pheal: You've just been healed by %s
+oheal: You've healed %s and been given %s!

@@ -1,0 +1,7 @@
+name: VestaDoctor
+main: tk.blha303.VestaDoctor
+version: 1
+permissions:
+	vesta.doctor:
+		description: Indicates that a player is a Doctor
+		default: false
