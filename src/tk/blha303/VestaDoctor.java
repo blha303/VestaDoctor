@@ -78,7 +78,8 @@ public class VestaDoctor extends JavaPlugin {
     				econ.bankDeposit(other.getName(), getConfig().getInt("medicalfees"));
     				player.setHealth(getConfig().getInt("healamount"));
     				player.sendMessage(String.format(getConfig().getString("pheal"), other.getDisplayName()));
-    				other.sendMessage(String.format(getConfig().getString("oheal"), player.getDisplayName(), getConfig().getInt("medicalfees")));    				
+    				other.sendMessage(String.format(getConfig().getString("oheal"), player.getDisplayName(), getConfig().getInt("medicalfees")));
+    				other.setFoodLevel(other.getFoodLevel() - getConfig().getInt("ofood"));
     			}
     		}
     	}

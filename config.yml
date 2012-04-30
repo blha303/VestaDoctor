@@ -1,5 +1,12 @@
+#node - perm node that makes a player a Doctor
+#medicalfees - amount in integers taken from the player and given to the doctor
+#healamount - 20 is 10 hearts. 1 is half a heart.
+#pheal - player heal message
+#oheal - doctor heal message
+#ofood - doctor food level taken. same measuring as health - 2=1 food.
 node: vesta.doctor
 medicalfees: 40
 healamount: 20
 pheal: You've just been healed by %s
-oheal: You've healed %s and been given %s!
+oheal: You've healed %s and earned %s!
+ofood: 2
